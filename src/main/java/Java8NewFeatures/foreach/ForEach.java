@@ -22,7 +22,6 @@ public class ForEach {
 		//3. Since java 1.8
 		ar.forEach(i->{
 			System.out.print(i+",");
-			System.out.print(i+",");
 		});
 	}
 }

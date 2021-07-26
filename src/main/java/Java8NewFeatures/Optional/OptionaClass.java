@@ -43,7 +43,7 @@ public class OptionaClass {
 		/* Using Optional */
 	   Optional<String> optional=Optional.ofNullable(t.getStr());
 	   System.out.println(optional.isPresent());
-	   System.out.println(optional.isEmpty());
+	   System.out.println(optional.empty());
 	   System.out.println(optional.orElse("String is null"));
 	   
 	   Test1 t1=new Test1();
