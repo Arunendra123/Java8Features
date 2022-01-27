@@ -1,7 +1,8 @@
 package Java8NewFeaturesLambdaFunction;
 
-/*1. Lambda Function 
-2. Function interface
+/*
+1. Lambda Function 
+2. Functional interface
 3. Default method and static method
 4. Predefine functional interface
    Predicate 

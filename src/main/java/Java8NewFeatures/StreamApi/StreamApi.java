@@ -29,7 +29,7 @@ public class StreamApi {
 		ar.add(32);
 		ar.add(54);
 		
-		System.out.println(ar);
+		System.out.println("List:"+(ar));
 		
 		//Filter filter(Predicate)
 		List<Integer> ar1=ar.stream().filter(i->i%2==0).collect(Collectors.toList());
